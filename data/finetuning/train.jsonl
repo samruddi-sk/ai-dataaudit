@@ -1,0 +1,216 @@
+{"input": "Calculate monthly revenue for February 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"February 2011\", \"needs_clarification\": false}"}
+{"input": "Which country generated the highest revenue?", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 1, \"needs_clarification\": false}"}
+{"input": "Was monthly revenue >= 25000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Count the total number of records.", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Count the total number of records.", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Check whether a month's revenue was >= 25000.", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Check whether EIRE generated >= 25000 in revenue.", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"EIRE\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Count the total number of records.", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Calculate monthly revenue for July 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"July 2011\", \"needs_clarification\": false}"}
+{"input": "Count the total number of records.", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Find the average price of products.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Show total revenue for October 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"October 2011\", \"needs_clarification\": false}"}
+{"input": "Calculate the mean selling price per item.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "What is the total transaction count?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Did any month have revenue < 1000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Show total revenue for August 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"August 2011\", \"needs_clarification\": false}"}
+{"input": "Calculate monthly revenue for January 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"January 2011\", \"needs_clarification\": false}"}
+{"input": "Which country generated the highest revenue?", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 1, \"needs_clarification\": false}"}
+{"input": "Find the average price of products.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "What was the average unit price?", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Show the top 3 countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 3, \"needs_clarification\": false}"}
+{"input": "Show the top 3 countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 3, \"needs_clarification\": false}"}
+{"input": "What was the average unit price?", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Show the top 3 countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 3, \"needs_clarification\": false}"}
+{"input": "Count the total number of records.", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Calculate the mean selling price per item.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Which country generated the highest revenue?", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 1, \"needs_clarification\": false}"}
+{"input": "Check whether a month's revenue was >= 25000.", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Did any month have revenue < 1000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Did France have revenue <= 5000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"France\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 5000, \"needs_clarification\": false}"}
+{"input": "Was revenue in EIRE <= 25000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"EIRE\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Check whether Spain generated < 50000 in revenue.", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Spain\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 50000, \"needs_clarification\": false}"}
+{"input": "Which country generated the highest revenue?", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 1, \"needs_clarification\": false}"}
+{"input": "Was revenue in Netherlands >= 100000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Netherlands\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 100000, \"needs_clarification\": false}"}
+{"input": "Which country generated the highest revenue?", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 1, \"needs_clarification\": false}"}
+{"input": "Check whether a month's revenue was <= 25000.", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "What was the revenue in October 2011?", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"October 2011\", \"needs_clarification\": false}"}
+{"input": "Calculate the mean selling price per item.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Did EIRE have revenue <= 25000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"EIRE\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Find the average price of products.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Count the total number of records.", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Calculate monthly revenue for December 2010.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"December 2010\", \"needs_clarification\": false}"}
+{"input": "What was the revenue in February 2011?", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"February 2011\", \"needs_clarification\": false}"}
+{"input": "Calculate the mean selling price per item.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Did Netherlands have revenue <= 100000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Netherlands\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 100000, \"needs_clarification\": false}"}
+{"input": "Which country generated the highest revenue?", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 1, \"needs_clarification\": false}"}
+{"input": "Rank countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 5, \"needs_clarification\": false}"}
+{"input": "Check whether a month's revenue was > 1000.", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Show total revenue for September 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"September 2011\", \"needs_clarification\": false}"}
+{"input": "What was the average unit price?", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "What is the total transaction count?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Was revenue in United Kingdom < 10000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"United Kingdom\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 10000, \"needs_clarification\": false}"}
+{"input": "How many transactions are in the dataset?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Calculate monthly revenue for November 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"November 2011\", \"needs_clarification\": false}"}
+{"input": "What is the total transaction count?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Did any month have revenue > 1000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Rank countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 5, \"needs_clarification\": false}"}
+{"input": "What was the revenue in March 2011?", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"March 2011\", \"needs_clarification\": false}"}
+{"input": "Was revenue in United Kingdom > 10000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"United Kingdom\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 10000, \"needs_clarification\": false}"}
+{"input": "Find the average price of products.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "What was the average unit price?", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Find the average price of products.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Rank countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 5, \"needs_clarification\": false}"}
+{"input": "Was monthly revenue <= 25000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "What was the revenue in June 2011?", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"June 2011\", \"needs_clarification\": false}"}
+{"input": "What was the revenue in May 2011?", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"May 2011\", \"needs_clarification\": false}"}
+{"input": "Was monthly revenue < 1000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Calculate the mean selling price per item.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Calculate the mean selling price per item.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Did Netherlands have revenue >= 100000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Netherlands\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 100000, \"needs_clarification\": false}"}
+{"input": "Find the average price of products.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Show the top 3 countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 3, \"needs_clarification\": false}"}
+{"input": "Find the average price of products.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Count the total number of records.", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "What was the average unit price?", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "What is the total transaction count?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "What is the total transaction count?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Did United Kingdom have revenue > 10000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"United Kingdom\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 10000, \"needs_clarification\": false}"}
+{"input": "Rank countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 5, \"needs_clarification\": false}"}
+{"input": "Which country generated the highest revenue?", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 1, \"needs_clarification\": false}"}
+{"input": "Show the top 3 countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 3, \"needs_clarification\": false}"}
+{"input": "Count the total number of records.", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Did any month have revenue >= 25000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Check whether Germany generated > 1000 in revenue.", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Germany\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Which country generated the highest revenue?", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 1, \"needs_clarification\": false}"}
+{"input": "Did any month have revenue < 1000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "What is the total transaction count?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Show total revenue for June 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"June 2011\", \"needs_clarification\": false}"}
+{"input": "Check whether Netherlands generated <= 100000 in revenue.", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Netherlands\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 100000, \"needs_clarification\": false}"}
+{"input": "How many transactions are in the dataset?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Count the total number of records.", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Calculate monthly revenue for September 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"September 2011\", \"needs_clarification\": false}"}
+{"input": "Check whether a month's revenue was < 1000.", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Count the total number of records.", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Which country generated the highest revenue?", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 1, \"needs_clarification\": false}"}
+{"input": "What was the revenue in December 2010?", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"December 2010\", \"needs_clarification\": false}"}
+{"input": "Show total revenue for April 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"April 2011\", \"needs_clarification\": false}"}
+{"input": "How many transactions are in the dataset?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Calculate the mean selling price per item.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Rank countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 5, \"needs_clarification\": false}"}
+{"input": "Check whether a month's revenue was > 1000.", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "What is the total transaction count?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "How many transactions are in the dataset?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Did France have revenue >= 5000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"France\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 5000, \"needs_clarification\": false}"}
+{"input": "Show the top 3 countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 3, \"needs_clarification\": false}"}
+{"input": "Show total revenue for December 2010.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"December 2010\", \"needs_clarification\": false}"}
+{"input": "Was revenue in EIRE >= 25000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"EIRE\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "How many transactions are in the dataset?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Did Germany have revenue < 1000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Germany\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Was revenue in Spain < 50000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Spain\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 50000, \"needs_clarification\": false}"}
+{"input": "Rank countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 5, \"needs_clarification\": false}"}
+{"input": "Show the top 3 countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 3, \"needs_clarification\": false}"}
+{"input": "What was the revenue in August 2011?", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"August 2011\", \"needs_clarification\": false}"}
+{"input": "Show total revenue for November 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"November 2011\", \"needs_clarification\": false}"}
+{"input": "Rank countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 5, \"needs_clarification\": false}"}
+{"input": "Was monthly revenue > 1000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Calculate monthly revenue for March 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"March 2011\", \"needs_clarification\": false}"}
+{"input": "Did any month have revenue >= 25000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Which country generated the highest revenue?", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 1, \"needs_clarification\": false}"}
+{"input": "Show total revenue for May 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"May 2011\", \"needs_clarification\": false}"}
+{"input": "Check whether Germany generated < 1000 in revenue.", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Germany\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "What is the total transaction count?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Did EIRE have revenue >= 25000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"EIRE\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Was monthly revenue <= 25000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Show the top 3 countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 3, \"needs_clarification\": false}"}
+{"input": "Did United Kingdom have revenue < 10000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"United Kingdom\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 10000, \"needs_clarification\": false}"}
+{"input": "Calculate monthly revenue for June 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"June 2011\", \"needs_clarification\": false}"}
+{"input": "Find the average price of products.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Did any month have revenue <= 25000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Was monthly revenue > 1000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "What was the average unit price?", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Show total revenue for January 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"January 2011\", \"needs_clarification\": false}"}
+{"input": "Which country generated the highest revenue?", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 1, \"needs_clarification\": false}"}
+{"input": "Was monthly revenue < 1000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Check whether a month's revenue was < 1000.", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Rank countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 5, \"needs_clarification\": false}"}
+{"input": "Find the average price of products.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Calculate monthly revenue for May 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"May 2011\", \"needs_clarification\": false}"}
+{"input": "How many transactions are in the dataset?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Was monthly revenue > 1000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Check whether a month's revenue was > 1000.", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Find the average price of products.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "What was the average unit price?", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "What is the total transaction count?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Calculate the mean selling price per item.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Check whether France generated <= 5000 in revenue.", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"France\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 5000, \"needs_clarification\": false}"}
+{"input": "Calculate monthly revenue for October 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"October 2011\", \"needs_clarification\": false}"}
+{"input": "Did any month have revenue > 1000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Find the average price of products.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Did any month have revenue <= 25000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "How many transactions are in the dataset?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Calculate monthly revenue for April 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"April 2011\", \"needs_clarification\": false}"}
+{"input": "What was the average unit price?", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "What was the revenue in January 2011?", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"January 2011\", \"needs_clarification\": false}"}
+{"input": "Count the total number of records.", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Check whether a month's revenue was <= 25000.", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "How many transactions are in the dataset?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "What was the revenue in November 2011?", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"November 2011\", \"needs_clarification\": false}"}
+{"input": "Calculate the mean selling price per item.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Calculate monthly revenue for August 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"August 2011\", \"needs_clarification\": false}"}
+{"input": "What was the revenue in July 2011?", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"July 2011\", \"needs_clarification\": false}"}
+{"input": "Check whether France generated >= 5000 in revenue.", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"France\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 5000, \"needs_clarification\": false}"}
+{"input": "Check whether Spain generated > 50000 in revenue.", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Spain\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 50000, \"needs_clarification\": false}"}
+{"input": "Show the top 3 countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 3, \"needs_clarification\": false}"}
+{"input": "Was monthly revenue < 1000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Calculate the mean selling price per item.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Calculate the mean selling price per item.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "What was the revenue in April 2011?", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"April 2011\", \"needs_clarification\": false}"}
+{"input": "Was revenue in France <= 5000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"France\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 5000, \"needs_clarification\": false}"}
+{"input": "Rank countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 5, \"needs_clarification\": false}"}
+{"input": "Did any month have revenue > 1000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Check whether Netherlands generated >= 100000 in revenue.", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Netherlands\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 100000, \"needs_clarification\": false}"}
+{"input": "Was revenue in Spain > 50000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Spain\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 50000, \"needs_clarification\": false}"}
+{"input": "Was revenue in France >= 5000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"France\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 5000, \"needs_clarification\": false}"}
+{"input": "Rank countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 5, \"needs_clarification\": false}"}
+{"input": "Show the top 3 countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 3, \"needs_clarification\": false}"}
+{"input": "How many transactions are in the dataset?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Show the top 3 countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 3, \"needs_clarification\": false}"}
+{"input": "Did any month have revenue >= 25000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "How many transactions are in the dataset?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "What was the average unit price?", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Did Spain have revenue > 50000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Spain\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 50000, \"needs_clarification\": false}"}
+{"input": "Show total revenue for July 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"July 2011\", \"needs_clarification\": false}"}
+{"input": "Check whether United Kingdom generated < 10000 in revenue.", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"United Kingdom\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 10000, \"needs_clarification\": false}"}
+{"input": "Check whether United Kingdom generated > 10000 in revenue.", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"United Kingdom\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 10000, \"needs_clarification\": false}"}
+{"input": "Was monthly revenue <= 25000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Show the top 3 countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 3, \"needs_clarification\": false}"}
+{"input": "How many transactions are in the dataset?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Was revenue in Germany > 1000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Germany\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Was revenue in Germany < 1000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Germany\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Check whether a month's revenue was <= 25000.", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Rank countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 5, \"needs_clarification\": false}"}
+{"input": "Rank countries by revenue.", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 5, \"needs_clarification\": false}"}
+{"input": "How many transactions are in the dataset?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Calculate the mean selling price per item.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "What was the average unit price?", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Did any month have revenue <= 25000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Show total revenue for February 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"February 2011\", \"needs_clarification\": false}"}
+{"input": "What is the total transaction count?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Check whether a month's revenue was < 1000.", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "What was the average unit price?", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "Show total revenue for March 2011.", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"March 2011\", \"needs_clarification\": false}"}
+{"input": "Was monthly revenue >= 25000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Check whether a month's revenue was >= 25000.", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "What is the total transaction count?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Count the total number of records.", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "Was revenue in Netherlands <= 100000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Netherlands\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 100000, \"needs_clarification\": false}"}
+{"input": "Did Spain have revenue < 50000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Spain\", \"metric\": \"line_revenue\", \"operator\": \"<\", \"threshold\": 50000, \"needs_clarification\": false}"}
+{"input": "Was monthly revenue >= 25000?", "output": "{\"claim_type\": \"monthly_revenue_threshold\", \"metric\": \"line_revenue\", \"operator\": \">=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Did Germany have revenue > 1000?", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"Germany\", \"metric\": \"line_revenue\", \"operator\": \">\", \"threshold\": 1000, \"needs_clarification\": false}"}
+{"input": "Check whether EIRE generated <= 25000 in revenue.", "output": "{\"claim_type\": \"country_revenue_threshold\", \"country\": \"EIRE\", \"metric\": \"line_revenue\", \"operator\": \"<=\", \"threshold\": 25000, \"needs_clarification\": false}"}
+{"input": "Find the average price of products.", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
+{"input": "What was the revenue in September 2011?", "output": "{\"claim_type\": \"monthly_revenue\", \"metric\": \"line_revenue\", \"period\": \"September 2011\", \"needs_clarification\": false}"}
+{"input": "Which country generated the highest revenue?", "output": "{\"claim_type\": \"top_country_revenue\", \"metric\": \"line_revenue\", \"top_n\": 1, \"needs_clarification\": false}"}
+{"input": "What is the total transaction count?", "output": "{\"claim_type\": \"row_count\", \"metric\": \"row_count\", \"needs_clarification\": false}"}
+{"input": "What was the average unit price?", "output": "{\"claim_type\": \"average_unit_price\", \"metric\": \"unit_price\", \"needs_clarification\": false}"}
