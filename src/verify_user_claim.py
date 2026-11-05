@@ -223,8 +223,8 @@ def run_analysis(df: pd.DataFrame, claim: Claim) -> dict:
             "observed_value": top_countries if top_n > 1 else top_countries[0],
             "verdict": None,
             "evidence": (
-                f"{country} generated the highest recorded revenue "
-                f"among {len(totals)} countries."
+                f"Top {len(top_countries)} countries ranked by total revenue "
+                f"out of {len(totals)} countries."
             ),
         }
 

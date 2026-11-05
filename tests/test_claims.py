@@ -33,3 +33,46 @@ def test_default_claims_are_deterministic():
     a = make_default_claims(df, limit=8, seed=1)
     b = make_default_claims(df, limit=8, seed=1)
     assert [x.model_dump() for x in a] == [x.model_dump() for x in b]
+
+
+def test_claim_top_n_syncs_with_parameters():
+    claim = Claim(
+        claim_id="test-top-n",
+        claim_type="top_country_revenue",
+        parameters={"top_n": 3},
+    )
+    assert claim.top_n == 3
+    assert claim.parameters["top_n"] == 3
+
+
+def test_claim_top_n_is_saved_in_parameters():
+    claim = Claim(
+        claim_id="test-top-n",
+        claim_type="top_country_revenue",
+        top_n=5,
+    )
+    assert claim.parameters["top_n"] == 5
+
+
+def test_run_analysis_returns_top_n_countries():
+    from src.verify_user_claim import run_analysis
+
+    df = pd.DataFrame({
+        "country": ["A", "B", "C", "D", "A", "B"],
+        "line_revenue": [100, 300, 200, 50, 150, 100],
+    })
+
+    claim = Claim(
+        claim_id="top-3-test",
+        claim_type="top_country_revenue",
+        top_n=3,
+    )
+
+    result = run_analysis(df, claim)
+
+    assert [item["country"] for item in result["observed_value"]] == [
+        "B", "A", "C"
+    ]
+    assert [item["revenue"] for item in result["observed_value"]] == [
+        400.0, 250.0, 200.0
+    ]
