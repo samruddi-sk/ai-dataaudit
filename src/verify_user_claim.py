@@ -76,6 +76,7 @@ def convert_to_claim(extracted) -> Claim:
         ),
         operator=extracted.operator or ">",
         parameters=parameters,
+        top_n=extracted.top_n,
     )
 
 
@@ -205,17 +206,21 @@ def run_analysis(df: pd.DataFrame, claim: Claim) -> dict:
                 "evidence": "No valid country revenue records.",
             }
 
-        totals = valid.groupby("country")[revenue_column].sum()
+        totals = (
+            valid.groupby("country")[revenue_column]
+            .sum()
+            .sort_values(ascending=False)
+        )
 
-        country = str(totals.idxmax())
-        revenue = float(totals.max())
+        top_n = max(1, min(int(claim.top_n), 20))
+        top_countries = [
+            {"country": str(country), "revenue": float(revenue)}
+            for country, revenue in totals.head(top_n).items()
+        ]
 
         return {
             "result_type": "analytical_answer",
-            "observed_value": {
-                "country": country,
-                "revenue": revenue,
-            },
+            "observed_value": top_countries if top_n > 1 else top_countries[0],
             "verdict": None,
             "evidence": (
                 f"{country} generated the highest recorded revenue "

@@ -21,14 +21,11 @@ class Claim:
     product_code: str | None = None
     tolerance: float = 0.05
     def __post_init__(self):
-        if not 1 <= self.top_n <= 20:
-            raise ValueError("top_n must be between 1 and 20.")
-        if self.operator not in {">", ">=", "<", "<=", "=="}:
-            raise ValueError(f"Unsupported operator: {self.operator}")
         if self.template_id and not self.claim_type:
             self.claim_type = self.template_id
         if self.claim_type and not self.template_id:
             self.template_id = self.claim_type
+
         if self.parameters:
             self.country = self.parameters.get("country", self.country)
             self.threshold = self.parameters.get("threshold", self.threshold)
@@ -36,6 +33,7 @@ class Claim:
             self.tolerance = self.parameters.get("tolerance", self.tolerance)
             self.period_a = self.parameters.get("period_a", self.period_a)
             self.period_b = self.parameters.get("period_b", self.period_b)
+            self.top_n = self.parameters.get("top_n", self.top_n)
         else:
             self.parameters = {
                 "country": self.country,
@@ -44,7 +42,13 @@ class Claim:
                 "tolerance": self.tolerance,
                 "period_a": self.period_a,
                 "period_b": self.period_b,
+                "top_n": self.top_n,
             }
+
+        if not 1 <= self.top_n <= 20:
+            raise ValueError("top_n must be between 1 and 20.")
+        if self.operator not in {">", ">=", "<", "<=", "=="}:
+            raise ValueError(f"Unsupported operator: {self.operator}")
     def model_dump(self) -> dict[str, Any]:
         """Return a deterministic dictionary representation."""
         return asdict(self)

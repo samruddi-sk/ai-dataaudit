@@ -27,6 +27,7 @@ SYSTEM_PROMPT = (
     "monthly_revenue_threshold, top_country_revenue, average_unit_price, row_count.\n"
     "Use metric revenue, unit_price, or row_count.\n"
     "Preserve comparison operators exactly: >, >=, <, <=, ==.\n"
+    "For top_country_revenue, extract top_n; default to 1.\n"
     "Never calculate a result or invent missing information.\n"
 )
 
@@ -114,6 +115,15 @@ def normalize_claim(data: dict, question: str) -> ExtractedClaim:
             "average_unit_price": "unit_price",
             "row_count": "row_count",
         }.get(claim_type, "revenue")
+
+    # Extract the requested number of top countries.
+    top_n_match = re.search(
+        r"\\btop\\s+(\\d+)\\b",
+        question,
+        flags=re.IGNORECASE,
+    )
+    if top_n_match:
+        data["top_n"] = int(top_n_match.group(1))
 
     # Preserve an explicitly written comparison operator.
     operator_match = re.search(

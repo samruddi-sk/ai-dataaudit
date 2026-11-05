@@ -29,6 +29,7 @@ class ExtractedClaim(BaseModel):
     period: Optional[str] = None
     operator: Optional[Literal[">", ">=", "<", "<=", "=="]] = None
     threshold: Optional[float] = None
+    top_n: int = Field(default=1, ge=1, le=20)
     needs_clarification: bool = False
     clarification_question: Optional[str] = None
 
@@ -53,8 +54,11 @@ Rules:
 6. Monthly revenue requires a month.
 7. Monthly revenue threshold requires operator and threshold.
 8. Top country revenue requires no country.
-9. Average unit price and row count require no threshold.
-10. Ask for clarification when the question is ambiguous.
+9. For top_country_revenue, extract the requested number of countries
+   into top_n. If no number is specified, use top_n=1.
+10. Average unit price and row count require no threshold.
+11. Ask for clarification when the question is ambiguous.
+12. Return only valid JSON matching the extraction schema.
 """
 
 
@@ -150,6 +154,7 @@ def main():
         "What was the revenue in December 2010?",
         "Did any month generate more than 1000000?",
         "Which country generated the highest revenue?",
+        "Show me the top 5 countries by revenue.",
         "What was the average unit price?",
         "How many transaction records are there?",
     ]
