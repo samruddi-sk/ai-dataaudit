@@ -261,7 +261,7 @@ def run_analysis(df: pd.DataFrame, claim: Claim) -> dict:
 
 def verify_question(question: str, provider: str | None = None) -> dict:
     provider = (
-        provider or os.getenv("VERITYAI_EXTRACTOR", "qwen")
+        provider or os.getenv("AI DATAAUDIT_EXTRACTOR", "qwen")
     ).lower().strip()
 
     print(f"\n[1/4] Extracting claim with {provider.upper()}...")
@@ -301,12 +301,12 @@ def verify_question(question: str, provider: str | None = None) -> dict:
 
 def main():
     print("=" * 65)
-    print("                 VERITYAI CLAIM VERIFICATION")
+    print("                 AI DATAAUDIT CLAIM VERIFICATION")
     print("=" * 65)
 
-    default_provider = os.getenv("VERITYAI_EXTRACTOR", "qwen")
+    default_provider = os.getenv("AI DATAAUDIT_EXTRACTOR", "qwen")
     print(f"Extractor: {default_provider.upper()}")
-    print("To use Gemini instead, set VERITYAI_EXTRACTOR=gemini.")
+    print("To use Gemini instead, set AI DATAAUDIT_EXTRACTOR=gemini.")
 
     question = input("\nEnter your question: ").strip()
 
@@ -318,7 +318,7 @@ def main():
         result = verify_question(question)
 
         print("\n" + "=" * 65)
-        print("                    VERITYAI RESULT")
+        print("                    AI DATAAUDIT RESULT")
         print("=" * 65)
         print(json.dumps(result, indent=2, default=str))
 

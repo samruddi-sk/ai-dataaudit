@@ -27,7 +27,7 @@ def numeric_deviation(observed, reference):
 
 def main():
     print("=" * 68)
-    print("VERITYAI - DEFECT ROBUSTNESS ANALYSIS")
+    print("AI DATAAUDIT - DEFECT ROBUSTNESS ANALYSIS")
     print("=" * 68)
 
     if not INPUT_FILE.exists():

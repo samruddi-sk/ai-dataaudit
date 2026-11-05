@@ -61,7 +61,7 @@ TEST_CLAIMS = [
 
 def main():
     print("=" * 65)
-    print("          VERITYAI LOCAL BATCH TESTING")
+    print("          AI DATAAUDIT LOCAL BATCH TESTING")
     print("=" * 65)
 
     df = pd.read_parquet(

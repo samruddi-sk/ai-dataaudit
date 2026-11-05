@@ -1,4 +1,4 @@
-# VerityAI Label Rules
+# AI DataAudit Label Rules
 
 ## Benchmark item
 Each item contains a defect-injected database, a claim, a reference answer from the documented cleaned dataset, and the expected label. The cleaned dataset is an operational reference, not perfect ground truth.

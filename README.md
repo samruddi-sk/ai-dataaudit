@@ -1,7 +1,7 @@
-# VerityAI
+# AI DataAudit
 **Repair-Robust Verification of AI-Generated Claims Under Data Quality Defects**
 
-VerityAI is a research prototype that checks structured claims against transaction data, tests sensitivity to plausible data repairs, and abstains when evidence is insufficient or defect-sensitive.
+AI DataAudit is a research prototype that checks structured claims against transaction data, tests sensitivity to plausible data repairs, and abstains when evidence is insufficient or defect-sensitive.
 
 ## What is included
 - Reproducible data preparation for UCI Online Retail II
@@ -25,7 +25,7 @@ This is a **working research prototype**, not evidence that the method is novel 
 ## 2. Setup on macOS / VS Code
 
 ```bash
-cd verityai
+cd ai-dataaudit
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
@@ -97,7 +97,7 @@ Ollama integration is optional. The deterministic baseline and tests work withou
 ## Project structure
 
 ```text
-verityai/
+ai-dataaudit/
 ├── app.py
 ├── requirements.txt
 ├── .gitignore

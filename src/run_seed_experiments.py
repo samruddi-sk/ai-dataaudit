@@ -28,7 +28,7 @@ def main() -> None:
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
     print("=" * 68)
-    print("VERITYAI - MULTI-SEED REPRODUCIBILITY EXPERIMENT")
+    print("AI DATAAUDIT - MULTI-SEED REPRODUCIBILITY EXPERIMENT")
     print("=" * 68)
 
     reference = load_reference()
@@ -125,7 +125,7 @@ def main() -> None:
     ].copy()
 
     summary = {
-        "project": "VerityAI",
+        "project": "AI DataAudit",
         "seeds": SEEDS,
         "claims_per_seed": len(claims),
         "experiment_conditions": len(EXPERIMENTS),

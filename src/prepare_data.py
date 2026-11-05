@@ -344,7 +344,7 @@ def save_reference_dataset(
 # --------------------------------------------------
 def main() -> None:
     print("=" * 60)
-    print("VERITYAI — DATA PREPARATION")
+    print("AI DATAAUDIT — DATA PREPARATION")
     print("=" * 60)
     raw_df = load_raw_dataset()
     print(f"Raw dataset shape: {raw_df.shape}")

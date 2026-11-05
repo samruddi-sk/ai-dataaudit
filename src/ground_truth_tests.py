@@ -355,7 +355,7 @@ def calculate_metrics(cases):
 def main():
 
     print("=" * 68)
-    print("VERITYAI — EXPANDED GROUND-TRUTH EVALUATION")
+    print("AI DATAAUDIT — EXPANDED GROUND-TRUTH EVALUATION")
     print("=" * 68)
 
     reference = make_dataset()
@@ -370,7 +370,7 @@ def main():
     )
 
     report = {
-        "project": "VerityAI",
+        "project": "AI DataAudit",
         "evaluation_type": (
             "constructed_controlled_ground_truth_evaluation"
         ),

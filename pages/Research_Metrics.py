@@ -8,12 +8,12 @@ ROOT = Path(__file__).resolve().parents[1]
 RESULTS = ROOT / "results"
 
 st.set_page_config(
-    page_title="VerityAI Research Metrics",
+    page_title="AI DataAudit Research Metrics",
     page_icon="📊",
     layout="wide"
 )
 
-st.title("VerityAI | Research Metrics Dashboard")
+st.title("AI DataAudit | Research Metrics Dashboard")
 st.caption(
     "Experimental evaluation of claim extraction, "
     "synthetic verification tests and data-defect robustness."
@@ -259,6 +259,6 @@ for item in limitations:
 st.divider()
 
 st.caption(
-    "VerityAI | Research prototype | "
+    "AI DataAudit | Research prototype | "
     "LLM-based claim extraction + deterministic evidence verification"
 )

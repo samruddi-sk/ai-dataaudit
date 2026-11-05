@@ -61,7 +61,7 @@ def main():
     df.to_csv(OUTPUT_FILE, index=False)
 
     print("=" * 76)
-    print("VERITYAI — MULTI-SEED RELIABILITY ANALYSIS")
+    print("AI DATAAUDIT — MULTI-SEED RELIABILITY ANALYSIS")
     print("=" * 76)
     print(f"Material-change threshold: {MATERIALITY_THRESHOLD_PCT}%")
     print(f"Total evaluation rows: {len(df)}")

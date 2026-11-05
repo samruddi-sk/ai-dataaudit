@@ -16,7 +16,7 @@ from src.defects import inject_defect
 ROOT = Path(__file__).resolve().parent
 
 st.set_page_config(
-    page_title="VerityAI | Claim Verification",
+    page_title="AI DataAudit | Claim Verification",
     page_icon="🔎",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -109,7 +109,7 @@ def show_verdict(verdict):
 
 # Sidebar
 with st.sidebar:
-    st.markdown("## 🔎 VerityAI")
+    st.markdown("## 🔎 AI DataAudit")
     st.caption("Research prototype | AI claim verification")
     st.divider()
 
@@ -131,12 +131,12 @@ with st.sidebar:
 
     st.divider()
     st.caption("LLM extracts claims; it does not decide factual verdicts.")
-    st.caption("VerityAI | Research Prototype")
+    st.caption("AI DataAudit | Research Prototype")
 
 
 # Header
 st.markdown(
-    '<div class="main-title">VerityAI</div>',
+    '<div class="main-title">AI DataAudit</div>',
     unsafe_allow_html=True,
 )
 st.markdown(
@@ -477,7 +477,7 @@ with tab3:
     2. Fine-tuned Qwen2.5 model extracts a structured claim
     3. Python analytics engine computes evidence
     4. Defect and repair experiments test robustness
-    5. VerityAI reports the evidence and outcome
+    5. AI DataAudit reports the evidence and outcome
 
     **Research components**
     """)
@@ -541,6 +541,6 @@ with tab3:
 
 st.divider()
 st.caption(
-    "VerityAI | Research prototype | LLM extraction + "
+    "AI DataAudit | Research prototype | LLM extraction + "
     "deterministic evidence verification"
 )

@@ -60,7 +60,7 @@ def main():
     df.to_csv(OUTPUT_FILE, index=False)
 
     print("=" * 76)
-    print("VERITYAI — MULTI-SEED RESULTS AUDIT")
+    print("AI DATAAUDIT — MULTI-SEED RESULTS AUDIT")
     print("=" * 76)
     print(f"Input: {INPUT_FILE}")
     print(f"Total evaluation rows: {len(df)}")

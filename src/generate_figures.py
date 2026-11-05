@@ -134,7 +134,7 @@ plt.legend(fontsize=8)
 save_chart("06_seed_repair_effects.png")
 
 
-print("\nVERITYAI FIGURES GENERATED")
+print("\nAI DATAAUDIT FIGURES GENERATED")
 print("=" * 50)
 
 for path in sorted(FIGURES.glob("*.png")):

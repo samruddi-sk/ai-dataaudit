@@ -53,7 +53,7 @@ def main():
 
     summary.to_csv(OUTPUT, index=False)
 
-    print("\nVERITYAI — STATISTICAL ANALYSIS")
+    print("\nAI DATAAUDIT — STATISTICAL ANALYSIS")
     print("=" * 75)
     print(summary.round(4).to_string(index=False))
     print(f"\nSaved: {OUTPUT}")

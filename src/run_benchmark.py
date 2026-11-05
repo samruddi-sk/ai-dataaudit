@@ -206,7 +206,7 @@ def evaluate_dataset(
 
 def main() -> None:
     print("=" * 68)
-    print("VERITYAI - REPAIR-ROBUST CLAIM VERIFICATION BENCHMARK")
+    print("AI DATAAUDIT - REPAIR-ROBUST CLAIM VERIFICATION BENCHMARK")
     print("=" * 68)
 
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
@@ -328,7 +328,7 @@ def main() -> None:
     )
 
     summary = {
-        "project": "VerityAI",
+        "project": "AI DataAudit",
         "dataset": "UCI Online Retail II",
         "reference_rows": int(len(reference)),
         "claims_generated": int(len(claims)),
