@@ -122,16 +122,16 @@ for i in range(60):
 
 # 4. Top country revenue: 60 unique prompts.
 top_templates = [
-    "List the top {n} countries by revenue {scope}.",
-    "Rank countries by revenue and return the top {n} {scope}.",
-    "Show the {n} highest-revenue countries {scope}.",
-    "Identify the leading {n} countries by sales revenue {scope}.",
-    "Which {n} countries generated the most revenue {scope}?",
-    "Display a revenue ranking of the top {n} countries {scope}.",
-    "Find the {n} countries with the greatest revenue {scope}.",
-    "Return the top {n} countries ranked by total revenue {scope}.",
-    "Sort countries by revenue and show {n} results {scope}.",
-    "Give me a ranking of the top {n} revenue-generating countries {scope}.",
+    "List the top {n} {country_word} by revenue {scope}.",
+    "Rank countries by revenue and return the top {n} {country_word} {scope}.",
+    "Show the {n} highest-revenue {country_word} {scope}.",
+    "Identify the leading {n} {country_word} by sales revenue {scope}.",
+    "Which {which_count} generated the most revenue {scope}?",
+    "Display a revenue ranking of the top {n} {country_word} {scope}.",
+    "Find the {n} {country_word} with the greatest revenue {scope}.",
+    "Return the top {n} {country_word} ranked by total revenue {scope}.",
+    "Sort countries by revenue and show {n} {result_word} {scope}.",
+    "Give me a ranking of the top {n} revenue-generating {country_word} {scope}.",
 ]
 
 top_scopes = [
@@ -150,7 +150,7 @@ for i in range(60):
 
     add(
         "top_country_revenue",
-        template.format(n=n, scope=scope),
+        template.format(n=n, scope=scope, country_word="country" if n == 1 else "countries", result_word="result" if n == 1 else "results", which_count="country" if n == 1 else f"{n} countries"),
         {
             "metric": "line_revenue",
             "top_n": n,
