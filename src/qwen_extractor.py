@@ -118,7 +118,7 @@ def normalize_claim(data: dict, question: str) -> ExtractedClaim:
 
     # Extract the requested number of top countries.
     top_n_match = re.search(
-        r"\\btop\\s+(\\d+)\\b",
+        r"\btop\s+(\d+)\b",
         question,
         flags=re.IGNORECASE,
     )
@@ -174,6 +174,7 @@ def normalize_claim(data: dict, question: str) -> ExtractedClaim:
         "period": data.get("period"),
         "operator": data.get("operator"),
         "threshold": data.get("threshold"),
+        "top_n": data.get("top_n", 1),
         "needs_clarification": bool(
             data.get("needs_clarification", False)
         ),
