@@ -376,6 +376,51 @@ with tab2:
                             ) * 100
                         else:
                             deviation = None
+                    elif isinstance(reference_value, list) and isinstance(
+                        defected_value, list
+                    ):
+                        reference_countries = [
+                            item.get("country") for item in reference_value
+                        ]
+                        defected_countries = [
+                            item.get("country") for item in defected_value
+                        ]
+
+                        if not reference_countries:
+                            deviation = None
+                        else:
+                            rank_changes = sum(
+                                a != b
+                                for a, b in zip(
+                                    reference_countries, defected_countries
+                                )
+                            ) + abs(
+                                len(reference_countries) - len(defected_countries)
+                            )
+                            rank_deviation = (
+                                rank_changes / len(reference_countries)
+                            ) * 100
+
+                            defected_revenues = {
+                                item.get("country"): item.get("revenue")
+                                for item in defected_value
+                            }
+                            revenue_deviations = []
+                            for item in reference_value:
+                                country = item.get("country")
+                                original = item.get("revenue")
+                                changed = defected_revenues.get(country)
+                                if changed is not None and original is not None:
+                                    revenue_deviations.append(
+                                        abs(changed - original)
+                                        / max(abs(original), 1e-9) * 100
+                                    )
+
+                            revenue_deviation = (
+                                max(revenue_deviations)
+                                if revenue_deviations else 0
+                            )
+                            deviation = max(rank_deviation, revenue_deviation)
                     else:
                         deviation = None
 
