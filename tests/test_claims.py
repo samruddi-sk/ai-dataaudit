@@ -76,3 +76,14 @@ def test_run_analysis_returns_top_n_countries():
     assert [item["revenue"] for item in result["observed_value"]] == [
         400.0, 250.0, 200.0
     ]
+
+
+def test_qwen_extracts_word_number_top_n():
+    from src.qwen_extractor import normalize_claim
+
+    claim = normalize_claim(
+        {"claim_type": "top_country_revenue", "metric": "revenue"},
+        "Show me the top three countries by revenue.",
+    )
+
+    assert claim.top_n == 3
