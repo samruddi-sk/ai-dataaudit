@@ -285,7 +285,7 @@ with tab1:
             st.download_button(
                 "Download verification result",
                 data=pd.Series(result).to_json(indent=2),
-                file_name="verityai_verification.json",
+                file_name="aidataudit_verification.json",
                 mime="application/json",
             )
 
